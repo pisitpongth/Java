@@ -1,8 +1,8 @@
-package TNI_Lab.LabSheet;
+package JavaTNI.LabSheet.LabSheet03.src;
 
 import javax.swing.JOptionPane;
 
-public class LabSheet03 {
+public class Lab301 {
     public static String find_grade(int score) {
         if (score >= 80 && score <= 100)
             return "A";

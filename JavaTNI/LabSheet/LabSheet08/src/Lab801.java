@@ -1,8 +1,8 @@
-package TNI_Lab.LabSheet;
+package JavaTNI.LabSheet.LabSheet08.src;
 
 import java.util.Scanner;
 
-public class LabSheet08 {
+public class Lab801 {
     public static void main(String[] args) {
         int num1;
         int num2;

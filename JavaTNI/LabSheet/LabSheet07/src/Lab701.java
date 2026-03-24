@@ -1,8 +1,8 @@
-package TNI_Lab.LabSheet;
+package JavaTNI.LabSheet.LabSheet07.src;
 
 import javax.swing.JOptionPane;
 
-public class LabSheet07 {
+public class Lab701 {
     public static boolean is_prime_number(int number) {
         if (number <= 1)
             return false;

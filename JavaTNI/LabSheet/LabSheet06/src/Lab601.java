@@ -1,8 +1,8 @@
-package TNI_Lab.LabSheet;
+package JavaTNI.LabSheet.LabSheet06.src;
 
 import java.util.Scanner;
 
-public class LabSheet06 {
+public class Lab601 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int[] numbers = new int[5];

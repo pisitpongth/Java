@@ -1,8 +1,8 @@
-package TNI_Lab.LabSheet;
+package JavaTNI.LabSheet.LabSheet02.src;
 
 import javax.swing.JOptionPane;
 
-public class LabSheet02 {
+public class Lab201 {
     public static void main(String[] args) {
         final String USERNAME = "admin";
         final String PASSWORD = "Admin1234";

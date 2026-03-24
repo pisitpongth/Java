@@ -1,8 +1,8 @@
-package TNI_Lab.LabSheet;
+package JavaTNI.LabSheet.LabSheet01.src;
 
 import javax.swing.JOptionPane;
 
-public class LabSheet01 {
+public class Lab101 {
     public static void main(String[] args) {
         boolean valid = false;
 
