@@ -12,13 +12,9 @@ public class LabSheet01 {
             if (fullName != null) {
                 String[] parts = fullName.trim().split(" ");
 
-                if (parts.length >= 2) {
+                if (parts.length == 2) {
                     String firstName = parts[0];
-                    StringBuilder lastName = new StringBuilder();
-
-                    for (int i = 1; i < parts.length; i++) {
-                        lastName.append(parts[i].toUpperCase()).append(" ");
-                    }
+                    String lastName = parts[1].toUpperCase();
                     String formattedFirstName = firstName.substring(0, 1).toUpperCase()
                             + firstName.substring(1).toLowerCase();
                     JOptionPane.showMessageDialog(null,
