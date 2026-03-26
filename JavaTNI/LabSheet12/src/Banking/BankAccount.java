@@ -3,7 +3,7 @@ package Banking;
 public class BankAccount {
     private String accId;
     private double accBalance;
-    private final String filename = "JavaTNI/LabSheet12/src/Banking/users_account.txt";
+    private final String filename = "src/Banking/users_account.txt";
 
     public BankAccount(String accId, double accBalance) {
         this.accId = accId;
