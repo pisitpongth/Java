@@ -22,9 +22,9 @@ public class Student {
     }
 
     public void showStatus() {
-        System.out.println("Name: " + this.name +
+        System.out.println("Name      : " + this.name +
                 "\nStudent ID: " + this.id +
-                "\nScore: " + this.score +
-                "\nResult: " + getResult());
+                "\nScore     : " + this.score +
+                "\nResult    : " + getResult());
     }
 }
