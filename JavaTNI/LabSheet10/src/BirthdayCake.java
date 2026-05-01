@@ -19,6 +19,20 @@ public class BirthdayCake extends Bakery {
     public String toString() {
         return super.toString() +
                 "\n" + getFlavor() + " birthday cake (message=" + getMessage() + ")" +
-                "\nTotal price of Birthday Cake = " + (getUnitPrice() * this.pound);
+                "\nTotal price of Birthday Cake = " + calculateTotalPrice();
+    }
+
+    @Override
+    public int getPackingCost() {
+        if (this.pound >= 3) {
+            return 10;
+        } else {
+            return super.getPackingCost();
+        }
+    }
+
+    @Override
+    public double calculateTotalPrice() {
+        return (getUnitPrice() * this.pound) + getPackingCost();
     }
 }

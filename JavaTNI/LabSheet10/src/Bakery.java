@@ -1,6 +1,7 @@
 public class Bakery {
     private String flavor;
     private double unitPrice;
+    private int packingCost = 5;
 
     public Bakery(String flavor, double unitPrice) {
         this.flavor = flavor;
@@ -22,5 +23,13 @@ public class Bakery {
 
     public String toString() {
         return "Thank you for your order!";
+    }
+
+    public int getPackingCost() {
+        return this.packingCost;
+    }
+
+    public double calculateTotalPrice() {
+        return this.unitPrice + this.packingCost;
     }
 }
