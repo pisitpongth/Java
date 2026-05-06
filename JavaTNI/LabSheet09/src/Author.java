@@ -32,10 +32,10 @@ public class Author {
     }
 
     public String showAuthorInfo() {
-        if (this.birthyear == 0) {
-            return getName() + " (" + this.nationality + ")";
-        } else if (this.nationality.isEmpty()) {
+        if (this.nationality.isEmpty()) {
             return getName();
+        } else if (this.birthyear == 0) {
+            return getName() + " (" + this.nationality + ")";
         }
         return getName() + " (" + this.nationality + ", born " + this.birthyear + ")";
     }
